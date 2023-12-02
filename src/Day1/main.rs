@@ -1,7 +1,11 @@
 use std::fs;
 use std::io::{BufRead, BufReader};
+
+
+const INPUT: &str = include_str!("./AOC_2023/src/Day1/texts.txt")
+
 fn main () {
-    !println("hello-world")
+    println!("hello world");
 }
 
 fn parse_lines(linesOfTexts: Vec<String>) -> Vec<i32> {
@@ -19,8 +23,8 @@ fn parse_lines(linesOfTexts: Vec<String>) -> Vec<i32> {
 }
 fn sum_numbers (lines: &[i32]){
   for number in lot.iter(){
-    let sum == 0
-    sum += number ;
+    let sum = 0;
+    sum += number;
   }
 }
 
